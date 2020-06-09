@@ -28,35 +28,45 @@ classic: [https://indexc.gd.workers.dev/](https://indexc.gd.workers.dev/)
 
 ## 部署 Deployment
 1.在本地安装`rclone`
+
 1.Install `rclone` software locally
 
 2.按照说明绑定网盘
+
 2.Follow [https://rclone.org/drive/]( https://rclone.org/drive/) bind a drive  
 
 3.执行`rclone config file`命令来找到文件`rclone.conf`的路径
+
 3.Execute the command`rclone config file` to find the file `rclone.conf` path
 
 4.打开`rclone.conf`，找到配置`root_folder_id`和`refresh_token`
+
 4.Open `rclone.conf`,find the configuration `root_folder_id` and `refresh_token`  
 
 5.在https://github.com/donwa/goindex中下载index.js文件并填写其中root和refresh_token
+
 5.Download index.js in https://github.com/donwa/goindex and fill in root and refresh_token  
 
 6.将代码部署到[Cloudflare Workers]（https://www.cloudflare.com/）
+
 6.Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)
 
 ## 安装部署 Quick Deployment
 1.打开 https://installen.gd.workers.dev/ 
+
 1.Open https://installen.gd.workers.dev/
 
 2.授权认证后，生成部署代码
+
 2.Auth and get the code
 
 3.复制代码到CloudFlare进行部署
+
 3.Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)  
 
 
 
 ## 关于 About
 Cloudflare Workers允许您编写可在Cloudflare的150多个全球数据中心中运行的JavaScript。
+
 Cloudflare Workers allow you to write JavaScript which runs on all of Cloudflare's 150+ global data centers.  
