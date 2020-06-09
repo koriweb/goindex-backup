@@ -13,7 +13,7 @@ PS：以下内容为原始内容。
 
 ---
 
-![GoIndex](https://raw.githubusercontent.com/donwa/goindex/master/themes/logo.png)  
+![GoIndex](https://raw.githubusercontent.com/koriweb/goindex-backup/master/themes/logo.png)  
   
 GoIndex  
 ====  
